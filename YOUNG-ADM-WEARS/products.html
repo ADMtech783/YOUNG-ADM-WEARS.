@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products — YOUNG ADM WEARS</title>
+  <meta name="description" content="Shop the full YOUNG ADM catalog — clothes, watches, footwear and bags. Add to cart and order via WhatsApp." />
+  <link rel="icon" type="image/jpeg" href="YOUNGAD.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand-mark" aria-label="YOUNG ADM Home">
+      <img src="YOUNGADM.jpg" alt="YOUNG ADM logo" />
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" aria-label="View cart" id="cart-toggle-btn">🛒<span class="cart-count" id="cart-count">0</span></button>
+      <button class="nav-toggle" aria-label="Open menu" id="nav-toggle">☰</button>
+      <div class="mobile-nav" id="mobile-nav">
+        <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">✕</button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="cart-panel" id="cart-panel">
+        <div class="cart-panel-header">
+          <h3>Your Cart</h3>
+          <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">✕</button>
+        </div>
+        <div class="cart-panel-items" id="cart-panel-items"></div>
+        <div class="cart-panel-footer">
+          <a href="#" id="cart-checkout-btn" class="btn btn-primary" target="_blank" rel="noopener">Checkout via WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="products-page">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Shop</span>
+      <h1>Full Catalog</h1>
+      <p>All 4 categories. Add to cart or order any item straight to WhatsApp.</p>
+      <p class="fabric-note">Final monogram color depends on the fabric color.</p>
+    </div>
+    <div class="category-jump">
+      <a href="#clothes">Clothes</a>
+      <a href="#watches">Watches</a>
+      <a href="#footwear">Footwear</a>
+      <a href="#bags">Bags</a>
+    </div>
+  </div>
+
+  <div class="container category-block" id="clothes">
+    <h2>Wear Clothes</h2>
+    <div class="product-grid" id="clothes-grid">
+      <article class="product-card" data-product-id="c1" data-product-name="Clothing — Style 1" data-product-price="20000">
+        <img src="wear5.jpg" alt="Clothing style 1" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 1</h3>
+          <p class="product-price">₦20,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%201" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="c2" data-product-name="Clothing — Style 2" data-product-price="18000">
+        <img src="wear6.jpg" alt="Clothing style 2" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 2</h3>
+          <p class="product-price">₦18,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%202" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="c3" data-product-name="Clothing — Style 3" data-product-price="22000">
+        <img src="wear7.jpg" alt="Clothing style 3" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 3</h3>
+          <p class="product-price">₦22,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%203" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="c4" data-product-name="Clothing — Style 4" data-product-price="19000">
+        <img src="wear8.jpg" alt="Clothing style 4" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 4</h3>
+          <p class="product-price">₦19,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%204" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c5" data-product-name="Clothing — Style 5" data-product-price="21000">
+        <img src="AD5.jpg" alt="Clothing style 5" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 5</h3>
+          <p class="product-price">₦21,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%205" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c6" data-product-name="Clothing — Style 6" data-product-price="20500">
+        <img src="AD7.jpg" alt="Clothing style 6" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 6</h3>
+          <p class="product-price">₦20,500</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%206" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c7" data-product-name="Clothing — Style 7" data-product-price="23000">
+        <img src="AD12.jpg" alt="Clothing style 7" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 7</h3>
+          <p class="product-price">₦23,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%207" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c8" data-product-name="Clothing — Style 8" data-product-price="18500">
+        <img src="AD14.jpg" alt="Clothing style 8" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 8</h3>
+          <p class="product-price">₦18,500</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%208" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c9" data-product-name="Clothing — Style 9" data-product-price="24000">
+        <img src="AD15.jpg" alt="Clothing style 9" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 9</h3>
+          <p class="product-price">₦24,000</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%209" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="c10" data-product-name="Clothing — Style 10" data-product-price="19500">
+        <img src="AD16.jpg" alt="Clothing style 10" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 10</h3>
+          <p class="product-price">₦19,500</p>
+          <p>Clean cuts, premium fabric.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Clothing%20Style%2010" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="view-more-wrap">
+      <button class="btn btn-secondary view-more-btn" data-target="clothes-grid">View More</button>
+    </div>
+  </div>
+
+  <div class="container category-block" id="watches">
+    <h2>Watches</h2>
+    <div class="product-grid" id="watches-grid">
+      <article class="product-card" data-product-id="w1" data-product-name="Watch — Style 1" data-product-price="25000">
+        <img src="watch1.jpg" alt="Watch style 1" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 1</h3>
+          <p class="product-price">₦25,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%201" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="w2" data-product-name="Watch — Style 2" data-product-price="27000">
+        <img src="watch2.jpg" alt="Watch style 2" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 2</h3>
+          <p class="product-price">₦27,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%202" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="w3" data-product-name="Watch — Style 3" data-product-price="23000">
+        <img src="watch3.jpg" alt="Watch style 3" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 3</h3>
+          <p class="product-price">₦23,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%203" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="w4" data-product-name="Watch — Style 4" data-product-price="26000">
+        <img src="watch4.jpg" alt="Watch style 4" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 4</h3>
+          <p class="product-price">₦26,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%204" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w5" data-product-name="Watch — Style 5" data-product-price="24000">
+        <img src="watch5.jpg" alt="Watch style 5" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 5</h3>
+          <p class="product-price">₦24,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%205" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w6" data-product-name="Watch — Style 6" data-product-price="28000">
+        <img src="watch6.jpg" alt="Watch style 6" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 6</h3>
+          <p class="product-price">₦28,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%206" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w7" data-product-name="Watch — Style 7" data-product-price="29000">
+        <img src="AD.jpg" alt="Watch style 7" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 7</h3>
+          <p class="product-price">₦29,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%207" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w8" data-product-name="Watch — Style 8" data-product-price="30000">
+        <img src="AD.jpg" alt="Watch style 8" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 8</h3>
+          <p class="product-price">₦30,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%208" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w9" data-product-name="Watch — Style 9" data-product-price="26500">
+        <img src="AD.jpg" alt="Watch style 9" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 9</h3>
+          <p class="product-price">₦26,500</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%209" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="w10" data-product-name="Watch — Style 10" data-product-price="31000">
+        <img src="AD.jpg" alt="Watch style 10" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 10</h3>
+          <p class="product-price">₦31,000</p>
+          <p>Sleek, everyday-luxury build.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Watch%20Style%2010" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="view-more-wrap">
+      <button class="btn btn-secondary view-more-btn" data-target="watches-grid">View More</button>
+    </div>
+  </div>
+
+  <div class="container category-block" id="footwear">
+    <h2>Footwear</h2>
+    <div class="product-grid" id="footwear-grid">
+      <article class="product-card" data-product-id="f1" data-product-name="Footwear — Style 1" data-product-price="18000">
+        <img src="shoe16.jpg" alt="Footwear style 1" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 1</h3>
+          <p class="product-price">₦18,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%201" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="f2" data-product-name="Footwear — Style 2" data-product-price="20000">
+        <img src="shoe17.jpg" alt="Footwear style 2" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 2</h3>
+          <p class="product-price">₦20,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%202" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="f3" data-product-name="Footwear — Style 3" data-product-price="17000">
+        <img src="shoe15.jpg" alt="Footwear style 3" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 3</h3>
+          <p class="product-price">₦17,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%203" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="f4" data-product-name="Footwear — Style 4" data-product-price="19500">
+        <img src="shoe5.jpg" alt="Footwear style 4" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 4</h3>
+          <p class="product-price">₦19,500</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%204" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article> 
+      <article class="product-card extra-item hidden" data-product-id="f5" data-product-name="Footwear — Style 5" data-product-price="21000">
+        <img src="shoe4.jpg" alt="Footwear style 5" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 5</h3>
+          <p class="product-price">₦21,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%205" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="f6" data-product-name="Footwear — Style 6" data-product-price="18500">
+        <img src="shoe3.jpg" alt="Footwear style 6" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 6</h3>
+          <p class="product-price">₦18,500</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%206" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="f7" data-product-name="Footwear — Style 7" data-product-price="22000">
+        <img src="shoe2.jpg" alt="Footwear style 7" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 7</h3>
+          <p class="product-price">₦22,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%207" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="f8" data-product-name="Footwear — Style 8" data-product-price="17500">
+        <img src="shoe1.jpg" alt="Footwear style 8" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 8</h3>
+          <p class="product-price">₦17,500</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%208" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="f9" data-product-name="Footwear — Style 9" data-product-price="23000">
+        <img src="shoe9.jpg" alt="Footwear style 9" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 9</h3>
+          <p class="product-price">₦23,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%209" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="f10" data-product-name="Footwear — Style 10" data-product-price="19000">
+        <img src="shoe10.jpg" alt="Footwear style 10" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 10</h3>
+          <p class="product-price">₦19,000</p>
+          <p>Crafted by hand, built for daily wear.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Footwear%20Style%2010" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="view-more-wrap">
+      <button class="btn btn-secondary view-more-btn" data-target="footwear-grid">View More</button>
+    </div>
+  </div>
+
+  <div class="container category-block" id="bags">
+    <h2>Bags</h2>
+    <div class="product-grid" id="bags-grid">
+      <article class="product-card" data-product-id="b1" data-product-name="Bag — Style 1" data-product-price="16000">
+        <img src="bag1.jpg" alt="Bag style 1" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 1</h3>
+          <p class="product-price">₦16,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%201" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="b2" data-product-name="Bag — Style 2" data-product-price="18500">
+        <img src="bag2.jpg" alt="Bag style 2" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 2</h3>
+          <p class="product-price">₦18,500</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%202" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="b3" data-product-name="Bag — Style 3" data-product-price="15000">
+        <img src="bag3.jpg" alt="Bag style 3" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 3</h3>
+          <p class="product-price">₦15,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%203" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-product-id="b4" data-product-name="Bag — Style 4" data-product-price="17500">
+        <img src="bag4.jpg" alt="Bag style 4" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 4</h3>
+          <p class="product-price">₦17,500</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%204" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b5" data-product-name="Bag — Style 5" data-product-price="19000">
+        <img src="bag5.jpg" alt="Bag style 5" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 5</h3>
+          <p class="product-price">₦19,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%205" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b6" data-product-name="Bag — Style 6" data-product-price="16500">
+        <img src="bag6.jpg" alt="Bag style 6" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 6</h3>
+          <p class="product-price">₦16,500</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%206" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b7" data-product-name="Bag — Style 7" data-product-price="20000">
+        <img src="bag7.jpg" alt="Bag style 7" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 7</h3>
+          <p class="product-price">₦20,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%207" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b8" data-product-name="Bag — Style 8" data-product-price="17000">
+        <img src="bag8.jpg" alt="Bag style 8" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 8</h3>
+          <p class="product-price">₦17,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%208" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b9" data-product-name="Bag — Style 9" data-product-price="21000">
+        <img src="bag9.jpg" alt="Bag style 9" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 9</h3>
+          <p class="product-price">₦21,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%209" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card extra-item hidden" data-product-id="b10" data-product-name="Bag — Style 10" data-product-price="18000">
+        <img src="AD.jpg" alt="Bag style 10" class="product-photo" />
+        <div class="product-card-body">
+          <h3>Style 10</h3>
+          <p class="product-price">₦18,000</p>
+          <p>Durable materials, minimal design.</p>
+          <div class="product-card-actions">
+            <button class="btn btn-secondary add-to-cart-btn">Add to Cart</button>
+            <a href="https://wa.me/2348126966400?text=I'm%20interested%20in%20Bag%20Style%2010" class="btn btn-primary" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="view-more-wrap">
+      <button class="btn btn-secondary view-more-btn" data-target="bags-grid">View More</button>
+    </div>
+  </div>
+
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="ADM.jpg" alt="YOUNG ADM logo" class="footer-logo" />
+      <p>Premium wears only. Clothes, watches, footwear, bags.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://instagram.com/youngadm01" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+      <a href="https://facebook.com/youngadm01" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+      <a href="https://tiktok.com/@youngadm01" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 YOUNG ADM. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="photo-lightbox" id="photo-lightbox">
+  <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close photo">✕</button>
+  <img src="" alt="" id="lightbox-image" />
+</div>
+<div class="lightbox-overlay" id="lightbox-overlay"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
